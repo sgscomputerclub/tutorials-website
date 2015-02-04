@@ -11,6 +11,7 @@ Afterwards, you'll need to confirm that you registered, by clicking on the link 
 ## 2- Uploading via FTP
 After your account has been confirmed, you will need to find your FTP details and put them into 
 Filezilla. See images below if you are stuck or ask for help.
+
 <img src="http://www.sgscclub.org/tutorials/tutorial6/1.png">
 <img src="http://www.sgscclub.org/tutorials/tutorial6/2.png">
 <img src="http://www.sgscclub.org/tutorials/tutorial6/3.png">
@@ -22,10 +23,12 @@ For the first few days of hosting this site, FTP always failed to connect and I 
 files another way.
 
 To start, navigate the root directory of your site (on your USB) and select all of the files and right click and click "Send to ZIP".
+
 <img src="http://www.sgscclub.org/tutorials/tutorial6/a1.png">
 
 You then want to navigate to the File Manager, <b>navigate to the "public_html" folder</b>, click upload, 
 and select "Upload an Archive".
+
 <img src="http://www.sgscclub.org/tutorials/tutorial6/a2.png">
 
 Profit?
