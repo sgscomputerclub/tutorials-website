@@ -1,0 +1,55 @@
+<!-- Computer Club Tutorial 8 -->
+
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+
+		<h1>Computer Club Tutorial 8</h1>
+		<p>A tooltip "is used in conjunction with a cursor. The user hovers the pointer
+			over an item, without clicking it, and a tooltip may appear - a small "hover
+			box" with information about the item being hovered over. Tooltips do not
+			appear on mobile operating systems, because there is no cursor."
+			(Tooltips, Wikipedia)</p>
+
+		<div id="RedBox" title="This is a tooltip.">Hover over me!</div>
+
+		<p>A tooltip can only plain text: it cannot display <em>for</em><u>mat</u><strong>ted</strong> <mark>text</mark> or any HTML tags.</p>
+
+		<div id="GreenBox"
+			title="Rich text does not display. One cannot create <i>italics</i>, <b>bold text</b> or <u>underlined text</u> in a tooltip.">
+				Hover over me!
+		</div>
+
+		<p title="Paragraphs can have tooltips too!">A tooltip can be created by adding the attribute "title" to a html tag.
+			Hover over this "paragraph" to see a tooltip.</p>
+
+		<p>In HTML, if I create a new
+			line, there is no line break in the viewed text. Since we can't do &lt;br /&gt; <br />
+			in a tooltip as it is a HTML tag, we can create a new line in the "title" attribute's value.</p>
+
+		<div id="BlueBox"
+			title="I can create new lines in tooltips, there is a new line
+here and
+here and
+here.
+I can also create
+	an indent
+		and a double-indent.
+Becareful with writing long tool-tips because the browser may trunicate it if it is too long like this one which goes on for ever and ever and ever and ever and ever and is really way too long.">
+				<!-- When creating a new line in a tooltip, you need to make sure that there are no indents before the start of the new line. -->
+				Hover over me!
+		</div>
+
+		<p>You can also use CSS to create more fancy tooltips.</p>
+
+		<div id="YellowBox"
+			title="This is a tooltip made to look cooler with CSS!"
+			class="YellowTooltip">
+				Hover over me!
+		</div>
+
+	</body>
+</html>

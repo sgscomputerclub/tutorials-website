@@ -1,0 +1,93 @@
+body {
+	background: #334433;
+}
+
+h1 {
+	font-family:sans-serif;
+	text-align:center;
+	color:white;
+}
+
+/* This below is the CSS code for the navigation bar. Don't worry if you don't
+ 	understand it, it, it's difficult to grasp.*/
+/* See "boxmodel.css" for more info. */
+
+nav {					/* The actual navigation bar. */
+	background-color: #888888;
+	width: 640px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:sans-serif;
+	font-size:14px;
+}
+
+nav ul {
+
+}
+
+/* <li> = list element */
+nav ul li {
+    display:inline-block;	/* Display each list element next to each other */
+    width:148px;
+    background-color: #E5E5E5;
+    margin: 6px;
+    padding: 6px;
+}
+
+/* It's saying by default, hide the contents of nav ul li ul (the dropdown items). */
+nav ul li ul {
+	display:none;
+}
+
+/* But when nav ul li is hovered, style it like this: */
+/* Refers to the container of each dropdown item. */
+nav ul li:hover ul {
+	position:absolute;		/* Position it so that the <nav><ul><li><ul> doesn't affect the positioning of other elements. */
+	display:block;			/* Display it as a block (imaginary rectangle around) - ie don't hide it*/
+	background-color: #222222;
+	width: 130px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:4px;
+	padding-bottom:4px;
+	margin-top:6px;
+}
+
+/* Refers to each individual dropdown item. */
+nav ul li:hover ul li {
+	display:block;
+	width: 120px;
+	background-color: #E5E5E5;
+	border-radius:2px;	/* Gives it a nice border. */
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:4px;
+	margin-bottom:4px;
+}
+
+nav ul li:hover ul a {
+	text-decoration:none;	/* Removes that ugly underline below hyperlinks. */
+	color: black;
+}
+
+nav ul li:hover ul li:hover {
+	background-color: #FFFFFF;
+}
+
+nav ul li:hover ul a li:hover {
+	color: #005500;
+}
+
+#container {
+	background-color:#E5E5E5;
+	border-radius:2px;
+	width: 640px;
+	font-family:sans-serif;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 5px 16px;
+}
+
+#container p {
+	font-size:14px;
+}

@@ -1,0 +1,99 @@
+<!-- Computer Club Tutorial 2 -->
+
+<!-- Ignore the <html> and <head> stuff, we'll get to that later. -->
+
+<!-- Please read Tutorial2/README.md before reading this. -->
+
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- This is used to link the CSS and the HTML. (Read more below.)
+			This always goes in the "head" part above but we'll get into that later. -->
+	</head>
+
+	<body>
+		<h1>Computer Club Tutorial 2</h1>
+
+		<!-- What is CSS? Read below: -->
+
+		<h2>A bit of a lecture about CSS</h2>
+
+		<div style="max-width: 680px;">
+			<p>HTML was never intended to contain tags for formatting a document.
+				HTML was intended to define the content of a document, like:
+				<h1>This is a heading</h1>
+				<p>This is a paragraph.</p>
+				When tags like "font", and "color" attributes were added to the HTML 3.2
+				specification, it started a nightmare for web developers. Development of large
+				web sites, where fonts and color information were added to every single page,
+				became a long and expensive process. To solve this problem, the World Wide Web
+				Consortium (W3C) created CSS. In HTML 4.0, all formatting could be removed from
+				the HTML document, and stored in a separate CSS file. All browsers support CSS
+				today.
+				<br />
+				<small>Taken from <a href="http://www.w3schools.com/css/css_intro.asp">
+					W3Schools, "CSS Introduction".</a></small>
+			</p>
+		</div>
+
+		<hr /> <!-- BTW, this makes a horizontal line. -->
+
+
+		<p>This text is not in any "div" tag.</p>
+		<!-- It appears in a default font (Times New Roman) with no formatting. -->
+
+
+		<!-- This is a "div" tag. It is used along with the CSS to layout a web page.-->
+		<!-- The "id" attribute refers to the selector in the CSS. Look in
+			"style.css" for more info on this "BlueContainer Tag" -->
+
+		<div id="BlueContainer">
+			<p>This text is in a "div" with the id, "BlueContainer".</p>
+			<!-- You should always indent inner tags using TAB. It just makes everything
+				look neater - the browser won't interperate it differently. -->
+		</div>
+
+		<p><strong>I recommend you take a look at "style.css" <em>now</em> and find out
+			more about "BlueContainer".</strong></p>
+		<!-- If you need any help, just ask! Tom and I are there to help! -->
+
+		<hr />
+
+		<p>Below are more examples of different CSS layouts.</p>
+
+		<div id="layout1">
+			<p>This "paragraph" (p) is in a "div" with the id, "layout1".
+		</div>
+
+		<div id="layout2">
+			<h1>This heading (h1) is in a "div" with the id, "layout2".</h1>
+			<p>This "paragraph" (p) is in a "div" with the id, "layout2". </p>
+			<small>The point I'm trying to make is that you can assign different attributes
+				to "children" of a div - ie setting certain attributes to the "h1" and "p" above.</small>
+		</div>
+
+		<div id="layout3">
+			<p>This "paragraph" (p) is in a "div" with the id, "layout3".</p>
+			<small>Hover your mouse over this.</small>
+		</div>
+
+		<div id="layout4">
+			<p>This "paragraph" (p) is in a "div" with the id, "layout4".</p>
+			<small>Put your cursor over this.</small>
+		</div>
+
+		<div id="layout5">
+			<p>This "paragraph" (p) is in a "div" with the id, "layout5".</p>
+			<small>This "div" has a large padding.</small>
+		</div>
+
+		<div id="layout6">
+			<p>This "paragraph" (p) is in a "div" with the id, "layout6".</p>
+			<small>This "div" has a large margin.</small>
+		</div>
+
+
+		<p>Now try adding/changing some of the CSS statements and see what happens! Have fun
+			and be creative!</p>
+	</body>
+</html>

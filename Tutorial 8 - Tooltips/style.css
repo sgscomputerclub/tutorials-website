@@ -1,0 +1,61 @@
+/*Computer Club Tutorial 8*/
+
+#RedBox {
+	background-color:#CC5555;
+	color: black;
+	font-family: sans;
+	width: 300px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align:center;
+}
+
+#BlueBox {
+	background-color:#5555CC;
+	color: black;
+	font-family: sans;
+	width: 300px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align:center;
+}
+
+#GreenBox {
+	background-color:#55CC55;
+	color: black;
+	font-family: sans;
+	width: 300px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align:center;
+}
+
+#YellowBox {
+	background-color:#CCCC55;
+	color: black;
+	font-family: sans;
+	width: 300px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align:center;
+}
+
+
+
+.YellowTooltip:hover:after{
+    background-color:#CC55CC;
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+    color: black;
+    width: 300px;
+    padding-top:5px;
+    padding-bottom:5px;
+    
+    content: attr(title);
+    left: 30px;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 220px;
+}

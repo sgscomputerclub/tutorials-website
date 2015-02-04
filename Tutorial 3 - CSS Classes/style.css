@@ -1,0 +1,43 @@
+p {					/* Just defining a "normal" <p> */
+	color: black;
+}
+
+p.sans-serif { 	/* Defining a <p> with the class "sans-serif" */
+	font-family:sans-serif;
+}
+
+p.red { 	/* Defining a <p> with the class "sans-serif" */
+	color:red;
+}
+
+p.large-spacing { 	/* Defining a <p> with the class "sans-serif" */
+	letter-spacing:10px;
+}
+
+p.small-spacing { 	/* Defining a <p> with the class "sans-serif" */
+	letter-spacing:-2px
+}
+
+p.bottomstick {
+	margin-bottom:0px;
+	margin-top:16px;
+}
+
+
+#box {
+	width: 64px;
+	height: 64px;
+	background-color: black;
+}
+
+#box.red {
+	background-color: red;
+}
+
+#box.long {
+	width: 128px;
+}
+
+#box.tall {
+	height: 128px;
+}

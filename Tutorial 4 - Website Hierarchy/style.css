@@ -1,0 +1,48 @@
+body {
+	color:black;
+	background-color:yellow;
+	font-family:sans-serif;
+	text-align:center;
+}
+
+p {   /* In this case we don't need a "#" because "#" is only used when defining a "div". */
+	font-size:14px;
+}
+
+h1 {
+	font-size:36px;
+}
+
+h2 {
+	font-size:24px;
+}
+
+h3 {
+	font-size:20px;
+}
+
+a { /* Colour of hyperlinks. */
+	color:#ccccff;
+}
+
+a:hover { /* Colour of hyperlinks when hovered over. */
+	color:#ccffcc;
+} 
+
+#container { /* This is going to be the name of the "div" which stores our content. */
+	background-color:#1a1a1a;
+	color:white; /* I'm defining this separately to color:black; above because I want the 
+					"h1" to be outside of the container in black. */
+	width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 8px; /* Padding is like the opposite of margin. I can't really explain it well,
+					  so mess around with it and you'll see what I mean. */
+	/* You can also use:
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	but just "padding: 8px;" refers to the same amount of padding on all the sides. */
+	text-align:left;
+}

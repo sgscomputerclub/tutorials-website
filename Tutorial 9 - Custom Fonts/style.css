@@ -1,0 +1,25 @@
+/*Computer Club Tutorial 9*/
+
+/* Creates a new font face. */
+@font-face {
+	font-family: "Shut Em Down";
+	src: url(shutemdown.woff);
+}
+
+/* Creates a new font face with a TFF font - just a demonstration to show that Internet Explorer sucks. */
+@font-face {
+	font-family: "Shut Em Down (TTF)";
+	src: url(shutemdown.tff);
+}
+
+/* Makes it so that the "h2" uses the "Shut Em Down" font. */
+h2 {
+	font-family: "Shut Em Down";
+	font-size: 22px;
+}
+
+/* Anything with this class will use the TFF font opposed to the WOFF one - just a demonstration to show that Internet Explorer sucks. */
+.CustomFontTff {
+	font-family: "Shut Em Down (TFF)";
+	font-size: 22px;
+}

@@ -1,0 +1,106 @@
+/*Computer Club 2014 Tutorial 2*/
+
+/* This is a comment in CSS. Anything after the /* tag is ignored by the browser. It can
+	spread over
+	multiple lines and will only end when you type: */
+
+
+/*This is a CSS statement. */
+#BlueContainer { /*This is the "selector". It is the name of your CSS statement and what follows the "id=" in the HTML.*/
+	/* You can name the selector almost anything. */
+	
+	color:white;     /* The colour of the TEXT (notice American English spelling) */
+	background-color:blue;     /* The colour of the background (notice American English spelling) */
+	font-size:24px;     /* The size of the font. */
+	width:300px;     /* The width of the "div". (Don't understand this? Ask someone) */
+	
+}     /* The "{" symbol starts the declarations and the "}" symbol ends it. */
+
+/* Now open the HTML in Chrome or Internet Explorer and view the web page. Feel free
+	To fiddle around with anything above and see what happens!*/
+
+
+
+
+#layout1 {
+	background-color:#48d3ff; /* This is a Hex colour. It can be used to define a colour 
+									more accurately - ie there is no color:light-red; or color:dark-red; etc. */
+	color:black;  /*e.g. color:black = #ffffff */
+	font-size:12px;	/* Size of text in "layout1". */
+	width:640px;		/* Width of "layout1". */
+	font-family:Arial, sans-serif; /* It will try to use the first font. If the computer does not have that, it will use the second etc... */
+	margin-left:50px; /* The box will leave a gap of 50px to the left of it. */
+	border-style:solid;
+	border-width:10px;
+	border-color:green;
+}
+
+#layout2 {
+	background-image:url('background-pattern.jpg'); /* That's how you point to another file in CSS. */
+	background-repeat:repeat; /* The way the background repeats itself, stretched, repeat, etc. */
+	text-align:center; /* Aligns the text in the centre. - notice American English spelling. */
+	width:75%; /*ie 75% of the page's width - resize the browser window to try it out. */
+	margin-left:12.5%; 	/* 75% of the page is used up, 12.5% on either side to center it. */
+	margin-right:12.5%;
+}
+
+#layout2 h1 {	/* This refers to any <h1> element inside a <div id="layout2"> */
+	font-size:35px;
+	font-family:"Impact", "Charcoal", sans-serif; /* Names of fonts (eg "Impact") must be placed in
+				speech marks opposed to types of generic families like sans-serif, serif and cursive. */
+	color:#990000;
+}
+
+#layout2 p {
+	font-size:24px;
+	font-family:"Brush Script Std", cursive, sans-serif;
+	color:#009900;
+}
+
+#layout2 small {
+	font-size:10px;
+	font-family:"Copperplate";
+	color:black;
+}
+
+#layout3{
+	background-color:#ff5555;
+	width:300px; /* The width needs to be specified IN PIXELS (not as a percentage) for the next thing to work: */
+	margin-left:auto; /* Setting left and right margins as auto, centres the container but DOES NOT WORK IF THE WIDTH IS SET AS A PERCENTAGE. */
+	margin-right:auto;
+	color:black;
+	font-family:sans-serif;
+}
+
+#layout3:hover{   /* You can change attributes when a "div" is hovered over. */
+	background-color:#55ff55;
+}
+/* We can't make it change attributes when clicked without JavaScript, and I have no intention of showing you guys how to use JavaScript any time soon. :( Sorry */
+
+#layout4 {
+	cursor:crosshair;
+	color:white;
+	font-family:sans-serif;
+	width:400px;
+	background-color:#111188;
+}
+
+#layout5 {
+	background-color:5555ff;
+	color:#000000;
+	padding-left:32px;			/* What is margin and padding? Look at an image included */
+	padding-right:32px;		/* in this weeks tutorials and fiddle around with it to  */
+	padding-top:64px;			/* see what happens. */
+	padding-bottom:64px;
+	width: 500px;
+}
+
+#layout6 {
+	background-color:ffff55;
+	color:#00000;
+	margin-left:32px;
+	margin-right:32px;
+	margin-top:64px;
+	margin-bottom:64px;
+	width: 500px;
+}
