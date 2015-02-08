@@ -36,4 +36,4 @@ Profit?
 Note: If you are using a domain that you already own, you will need to point your domain name to <a href="http://www.000webhost.com/faq.php?ID=41">000webhost's nameservers.</a> They have instruction on 
 how to do that <a href="http://www.000webhost.com/faq.php?ID=39">here</a>.
 
-Keep in mind that you don't have to go out of your way to buy a domain <em>just</em> for the sake of Computer Club, but if you want to do so for your own use, a .com domain only costs about $15 - $20 per year.
+Keep in mind that you don't have to go out of your way to buy a domain <em>just</em> for the sake of Computer Club, but if you want to do so for your own use, a .com domain only costs about $10 - $15 per year.
