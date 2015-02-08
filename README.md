@@ -5,7 +5,7 @@ In general (so unless specified otherwise), all work here has been written by me
 
 
 To get the most out of these tutorials, you should first hit the "Download ZIP" button located here:
-(Image needed)
+<img src="http://i.imgur.com/8v79tiO.jpg?1">
 
 Afterwards, you should open the tutorial in a web browser <strong>and</strong> in Notepad++ or Geany <em>side-by-side</em>. To get the most out of it, we <em>strongly suggest</em> you meddle around with in Notepad++/Geany, save the file, and reload it in the web browser. This way, you will be able to see how changing the code affects the web page.
 
